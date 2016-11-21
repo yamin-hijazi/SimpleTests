@@ -8,19 +8,19 @@ import java.util.Random;
  */
 public class SimpleTest {
 
-   // @Test
+    @Test
    public void alwaysPass1()
    {
        Assert.assertEquals(1, 1);
    }
 
-   //  @Test
+     @Test
     public void alwaysPass2()
     {
         Assert.assertEquals(1, 1);
     }
 
-    // @Test
+     @Test
     public void alwaysFail1()
     {
         Assert.assertEquals(1, 0);
