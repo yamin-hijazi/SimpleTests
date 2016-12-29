@@ -1,6 +1,7 @@
 import junit.framework.Assert;
 import org.junit.Test;
 import java.util.Random;
+import org.junit.Ignore;
 
 
 /**
@@ -51,7 +52,7 @@ public class SimpleTest {
     }
 	
 	@Test
-	@ignore
+	@Ignore
     public void ignored1()
     {
         Random random = new Random();
@@ -61,7 +62,7 @@ public class SimpleTest {
     }
 	
 	@Test
-	@ignore
+	@Ignore
     public void ignored2()
     {
         Random random = new Random();
