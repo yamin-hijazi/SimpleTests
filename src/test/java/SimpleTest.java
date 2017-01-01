@@ -43,6 +43,7 @@ public class SimpleTest {
     }
 
     @Test
+	@Ignore
     public void sometimesPass2()
     {
         Random random = new Random();
