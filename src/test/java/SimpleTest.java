@@ -5,8 +5,8 @@ import org.junit.Ignore;
 
 
 /**
- * Created by gadiel on 15/11/2016.   
- */
+ * Created by gadiel on 15/11/2016.          
+ */ 
 public class SimpleTest {
 
    @Test
@@ -21,25 +21,25 @@ public class SimpleTest {
         Assert.assertEquals(1, 1);
     }
 
-     @Test
+//      @Test
     public void alwaysFail1()
     {
         Assert.assertEquals(1, 0);
     }
 
-    @Test
+//     @Test
     public void alwaysFail2()
     {
         Assert.assertEquals(1, 0);
     }
 	
-	@Test
+// 	@Test
     public void alwaysFail3()
     {
         Assert.assertEquals(1, 3);
     }
 
-     @Test
+//      @Test
     public void sometimesPass1()
     {
         Random random = new Random();
@@ -48,7 +48,7 @@ public class SimpleTest {
         Assert.assertEquals(smallerThanFiftee, true);
     }
 
-    @Test
+//     @Test
     public void sometimesPass2()
     {
         Random random = new Random();
