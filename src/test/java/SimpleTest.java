@@ -62,7 +62,7 @@ public class SimpleTest {
     public void ignored1()
     {
         Random random = new Random();
-        int randomNumber = random.nextInt(100);
+        int randomNumber = random.nextInt(99);
         boolean smallerThanFiftee =  randomNumber < 50 ? true : false;
         Assert.assertEquals(smallerThanFiftee, true);
     }
