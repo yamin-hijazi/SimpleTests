@@ -9,13 +9,13 @@ import org.junit.Ignore;
  */ 
 public class SimpleTest {
 
-   //@Test
+   @Test
    public void alwaysPass1()
    {
        Assert.assertEquals(1, 1);
    }
 
-  // @Test
+   @Test
     public void alwaysPass2()
     {
         Assert.assertEquals(1, 1);
@@ -39,7 +39,7 @@ public class SimpleTest {
         Assert.assertEquals(1, 2);
     }
 
-    //@Test
+    @Test
     public void sometimesPass1()
     {
         Random random = new Random();
