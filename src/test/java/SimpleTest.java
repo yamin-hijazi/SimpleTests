@@ -9,37 +9,37 @@ import org.junit.Ignore;
  */ 
 public class SimpleTest {
 
- //  @Test
+   @Test
    public void alwaysPass1()
    {
        Assert.assertEquals(1, 1);
    }
 
- //  @Test
+   @Test
     public void alwaysPass2()
     {
         Assert.assertEquals(1, 1);
     }
 
-//    @Test
+    @Test
     public void alwaysFail1()
     {
         Assert.assertEquals(1, 0);
     }
 
-//     @Test
+     @Test
     public void alwaysFail2()
     {
         Assert.assertEquals(1, 0);
     }
 	
-//    @Test
+	@Test
     public void alwaysFail3()
     {
         Assert.assertEquals(1, 2);
     }
 
-//    @Test
+	@Test
     public void sometimesPass1()
     {
         Random random = new Random();
@@ -48,7 +48,7 @@ public class SimpleTest {
         Assert.assertEquals(smallerThanFiftee, true);
     }
 
- //    @Test
+     @Test
     public void sometimesPass2()
     {
         Random random = new Random();
