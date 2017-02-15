@@ -65,7 +65,7 @@ public class SimpleTest {
         boolean smallerThanFiftee =  randomNumber < 50 ? true : false;
         Assert.assertEquals(smallerThanFiftee, true);
     }
-	
+	 
 	@Test
 	@Ignore
     public void ignored2()
