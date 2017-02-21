@@ -44,7 +44,7 @@ public class SimpleTest {
         Assert.assertEquals(1, 2);
     }
 	
-   @Test
+   @Test 
     public void alwaysFail22()
     {
         Assert.assertEquals(1, 0);
