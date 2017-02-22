@@ -13,7 +13,7 @@ public class SimpleTest {
    public void alwaysPass1()
    {
        Assert.assertEquals(1, 1);
-	Thread.sleep(20000);
+	//Thread.sleep(20000);
    }
 
    @Test
