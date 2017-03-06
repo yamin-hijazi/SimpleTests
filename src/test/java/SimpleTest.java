@@ -55,7 +55,7 @@ public class SimpleTest {
 	@Test
     public void alwaysFail3()
     {
-        Assert.assertEquals(1, 1;
+        Assert.assertEquals(1, 1);
     }
 	
 	//	@Test
