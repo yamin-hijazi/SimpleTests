@@ -13,7 +13,6 @@ public class SimpleTest {
    public void alwaysPass1()
    {
        Assert.assertEquals(1, 1);
-	//Thread.sleep(20000);
    }
 
    @Test
@@ -22,46 +21,17 @@ public class SimpleTest {
         Assert.assertEquals(1, 1);
     }
 
- //   @Test
+    @Test
     public void alwaysFail1()
     {
         Assert.assertEquals(1, 2);    }
 
- //  @Test
+   @Test
     public void alwaysFail2()
     {
         Assert.assertEquals(1, 0);
     }
 	
- @Test
-    public void alwaysFail33()
-    {
-        Assert.assertEquals(1, 1);
-    }
-	
-   @Test
-    public void alwaysFail334()
-    {
-        Assert.assertEquals(1, 0);
-    }
-	
-   @Test 
-    public void alwaysFail22()
-    {
-        Assert.assertEquals(1,0);
-    }	
-	
-    @Test
-    public void alwaysFail3()
-    {
-        Assert.assertEquals(1, 0);
-    }
-	
-    @Test
-    public void alwaysFail43()
-    {
-        Assert.assertEquals(1, 0);
-    }
 
     @Test
     public void sometimesPass1()
