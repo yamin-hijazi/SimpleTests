@@ -12,14 +12,14 @@ public class SimpleTest {
    @Test  
    public void alwaysPass1()
    {
-       Assert.assertEquals(1, 0);
+       Assert.assertEquals(1, 1);
 	//Thread.sleep(20000);
    }
 
    @Test
     public void alwaysPass2()
     {
-        Assert.assertEquals(1, 0);
+        Assert.assertEquals(1, 1);
     }
 
     @Test
@@ -39,32 +39,31 @@ public class SimpleTest {
         Assert.assertEquals(1, 0);
     }
 	
- @Test
+   @Test
     public void alwaysFail334()
     {
         Assert.assertEquals(1, 0);
     }
 	
-  @Test 
+   @Test 
     public void alwaysFail22()
     {
-        Assert.assertEquals(1,1);
-    }
+        Assert.assertEquals(1,0);
+    }	
 	
-	
-	@Test
+    @Test
     public void alwaysFail3()
     {
-        Assert.assertEquals(1, 1);
+        Assert.assertEquals(1, 0);
     }
 	
-	//	@Test
+    @Test
     public void alwaysFail43()
     {
         Assert.assertEquals(1, 0);
     }
 
-	@Test
+    @Test
     public void sometimesPass1()
     {
         Random random = new Random();
@@ -73,7 +72,7 @@ public class SimpleTest {
         Assert.assertEquals(smallerThanFiftee, true);
     }
 
-     @Test
+    @Test
     public void sometimesPass2()
     {
         Random random = new Random();
