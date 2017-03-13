@@ -9,19 +9,19 @@ import org.junit.Ignore;
  */  
 public class SimpleTest {
 	
-  // @Test  
+   @Test  
    public void alwaysPass1()
    {
        Assert.assertEquals(1, 1);
    }
 
-  // @Test
+   @Test
     public void alwaysPass2()
     {
         Assert.assertEquals(2, 2);
     }
 
-   // @Test
+    @Test
     public void alwaysFail1()
     {
         Assert.assertEquals(1, 2);    }
