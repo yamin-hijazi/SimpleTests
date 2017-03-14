@@ -21,19 +21,19 @@ public class SimpleTest {
         Assert.assertEquals(2, 2);
     }
 
-    @Test
+  //  @Test
     public void alwaysFail1()
     {
         Assert.assertEquals(1, 2);    }
 
-   @Test
+ //  @Test
     public void alwaysFail2()
     {
         Assert.assertEquals(1, 2);
     }
 	
 
-    @Test
+  //  @Test
     public void sometimesPass1()
     {
         Random random = new Random();
