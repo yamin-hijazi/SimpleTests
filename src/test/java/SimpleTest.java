@@ -29,7 +29,7 @@ public class SimpleTest {
    @Test
     public void alwaysFail2()
     {
-        Assert.assertEquals(1, 9);
+        Assert.assertEquals(1, 2);
     }
 	
 
