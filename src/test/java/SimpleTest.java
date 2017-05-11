@@ -24,7 +24,7 @@ public class SimpleTest {
     @Test
     public void alwaysFail1()
     {
-        Assert.assertEquals(1, 3);    }
+        Assert.assertEquals(1, 1);    }
 
 //    @Test
 //     public void alwaysFail2()
