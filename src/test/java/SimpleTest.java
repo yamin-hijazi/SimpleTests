@@ -9,11 +9,11 @@ import org.junit.Ignore;
  */  
 public class SimpleTest {
 	
-  @Test  
-   public void alwaysPass1()
-   { 
-       Assert.assertEquals(1, 1);
-   }
+//   @Test  
+//    public void alwaysPass1()
+//    { 
+//        Assert.assertEquals(1, 1);
+//    }
 
    @Test
     public void alwaysPass2()
