@@ -6,7 +6,8 @@ import org.junit.Ignore;
                         
 /**        
  *  Created by gadiel on 15/11/2016.                         
- */   
+ */ 
+
 public class SimpleTest {
 	
   @Test  
@@ -70,5 +71,7 @@ public class SimpleTest {
         boolean smallerThanFiftee =  randomNumber < 50 ? true : false;
         Assert.assertEquals(smallerThanFiftee, true);
     }
+	
+	
 }
  
