@@ -22,10 +22,11 @@ public class SimpleTest {
 //         Assert.assertEquals(2, 2);
 //     }
 
-    @Test
-    public void alwaysFail1()
-    {
-        Assert.assertEquals(1, 3);    }
+//     @Test
+//     public void alwaysFail1()
+//     {
+//         Assert.assertEquals(1, 3);   
+//     }
 
    @Test
     public void alwaysFail2()
