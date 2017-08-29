@@ -8,7 +8,7 @@ import org.junit.Ignore;
  */       
               
 public class SimpleTest { 
-	 
+	  
   @Test  
    public void alwaysPass1()
    { 
