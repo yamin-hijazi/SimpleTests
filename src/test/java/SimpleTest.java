@@ -43,7 +43,7 @@ public class SimpleTest {
         Assert.assertEquals(smallerThanFiftee, true);
     }
 
-    @Test
+    @Test  
     public void sometimesPass2()
     {
         Random random = new Random();
