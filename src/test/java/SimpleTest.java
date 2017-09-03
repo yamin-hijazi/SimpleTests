@@ -11,7 +11,7 @@ public class SimpleTest {
 	
 @BeforeClass
     public static void setUp() {
-        Assert.assertEquals(1, 2);   
+        throw new IndexOutOfBoundsException();  
     }
 	
   @Test  
