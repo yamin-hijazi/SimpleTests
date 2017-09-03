@@ -41,6 +41,8 @@ public class SimpleTest {
         int randomNumber = random.nextInt(100);
         boolean smallerThanFiftee =  randomNumber < 50 ? true : false;
         Assert.assertEquals(smallerThanFiftee, true);
+	Assert.assertEquals(1, 2);
+
     }
 
     @Test  
@@ -50,7 +52,7 @@ public class SimpleTest {
         int randomNumber = random.nextInt(100);
         boolean smallerThanFiftee =  randomNumber < 50 ? true : false;
         Assert.assertEquals(smallerThanFiftee, true);
-   
+   	Assert.assertEquals(1, 2);
     }
 	
 	@Test
