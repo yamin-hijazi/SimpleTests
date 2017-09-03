@@ -8,7 +8,12 @@ import org.junit.Ignore;
  */         
                  
 public class SimpleTest { 
-	  
+	
+@BeforeClass
+    public static void setUp() {
+        Assert.assertEquals(1, 2);   
+    }
+	
   @Test  
    public void alwaysPass1()
    { 
