@@ -9,6 +9,11 @@ import org.junit.Ignore;
                  
 public class SimpleTest { 
 	
+  @BeforeClass
+    public static void setUpBeforeClass() {
+
+    }	
+		
   @Test  
    public void alwaysPass1()
    { 
