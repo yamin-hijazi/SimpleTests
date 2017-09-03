@@ -10,6 +10,7 @@ public class SimpleTest {
 	
   @BeforeClass
     public static void setUpBeforeClass() {
+        Assert.assertEquals(1, 2);   
 
     }	
 		
