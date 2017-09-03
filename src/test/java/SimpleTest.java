@@ -11,7 +11,7 @@ public class SimpleTest {
 	
 @BeforeClass
     public static void setUp() {
-        throw new IndexOutOfBoundsException();  
+        throw new Exception();  
     }
 	
   @Test  
