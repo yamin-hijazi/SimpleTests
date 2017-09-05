@@ -22,7 +22,7 @@ public class SimpleTest {
    @Test
     public void alwaysPass2()
     {
-        Assert.assertEquals(1, 2);
+        Assert.assertEquals(2, 2);
     }
 
     @Test
