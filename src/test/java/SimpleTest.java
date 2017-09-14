@@ -8,10 +8,10 @@ import org.junit.*;
                  
 public class SimpleTest { 
 	
-//  @BeforeClass
-//     public static void setUpBeforeClass() {
-//         Assert.assertEquals(1, 1);  
-//     }
+ @BeforeClass
+    public static void setUpBeforeClass() {
+        Assert.assertEquals(1, 1);  
+    }
 		
   @Test  
    public void alwaysPass1()
