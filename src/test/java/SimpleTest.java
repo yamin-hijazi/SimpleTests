@@ -12,7 +12,7 @@ public class SimpleTest {
 //     public static void setUpBeforeClass() {
 //         Assert.assertEquals(1, 2);  
 //     }
-		
+		 
   @Test  
    public void alwaysPass1()
    { 
