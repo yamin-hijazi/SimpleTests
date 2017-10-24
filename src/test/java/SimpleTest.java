@@ -16,7 +16,7 @@ public class SimpleTest {
 @Test  
    public void throwEx() throws Exception
    { 
-      String msg = "<b>hi</b>";					
+      String msg = "<b>hi</b><a href=\"www.google.com\">blabla</a>;					
 	throw new Exception(msg);
    }
 	
