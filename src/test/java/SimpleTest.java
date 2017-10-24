@@ -12,6 +12,14 @@ public class SimpleTest {
 //     public static void setUpBeforeClass() {
 //         Assert.assertEquals(1, 2);  
 //     }
+	
+@Test  
+   public void throwEx()
+   { 
+      String msg = "<b>hi</b>";					
+	throw new Exception(msg);
+   }
+	
 		 
   @Test  
    public void alwaysPass1()
@@ -24,6 +32,8 @@ public class SimpleTest {
     {
         Assert.assertEquals(2, 2);
     }
+	
+	
 
     @Test
     public void alwaysFail1()
