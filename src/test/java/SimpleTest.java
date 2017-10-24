@@ -14,7 +14,7 @@ public class SimpleTest {
 //     }
 	
 @Test  
-   public void throwEx()
+   public void throwEx() throws Exception
    { 
       String msg = "<b>hi</b>";					
 	throw new Exception(msg);
