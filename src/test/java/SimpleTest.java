@@ -26,7 +26,7 @@ public class SimpleTest {
    { 
        Assert.assertEquals(1, 1);
    } 
-
+  
    @Test
     public void alwaysPass2()
     {
