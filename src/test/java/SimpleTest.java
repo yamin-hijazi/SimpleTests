@@ -5,7 +5,7 @@ import org.junit.*;
 /**                                       
  *  Created by gadiel on 15/11/2016.       test raluca                     
  */           
-                    
+                      
 public class SimpleTest { 
 	
 //  @BeforeClass
