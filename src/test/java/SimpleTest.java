@@ -8,17 +8,7 @@ import org.junit.*;
                       
 public class SimpleTest { 
 	
- @BeforeClass
-    public static void setUpBeforeClass() {
-        Assert.assertEquals(1, 2);  
-    }
-	
-@Test  
-   public void throwEx() throws Exception
-   { 
-      String msg = "<b>hi</b><a href=\"www.google.com\">blabla</a>";					
-	throw new Exception(msg);
-   }
+
 	
 		 
   @Test  
