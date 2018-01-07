@@ -1,10 +1,14 @@
 import junit.framework.Assert;
+import org.junit.Ignore;
+import org.junit.Test;
+
 import java.util.Random;
-import org.junit.*;
                                                                                        
 /**                                         
  *  Created by gadiel on 15/11/2016.                   
- */             
+ */
+
+// commit 1
                              
 public class SimpleTest { 
 				 
