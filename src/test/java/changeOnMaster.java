@@ -4,4 +4,5 @@
 public class changeOnMaster {
 	// commit from master
 	// 1
+	//2
 }
