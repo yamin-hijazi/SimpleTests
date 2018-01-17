@@ -4,9 +4,4 @@
 public class changeOnMaster {
 	// commit from master
 	// 1
-	//2
-	//3
-	//4
-	// 5
-	// commit on master - ido
 }
