@@ -42,7 +42,12 @@ public class SimpleTest {
     {
         Assert.assertEquals(1, 2);
     }
-	      
+	
+	 @Test
+    public void alwaysFail4()
+    {
+        Assert.assertEquals(1, 2);
+    }
  
     @Test
     public void sometimesPass1()
